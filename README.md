@@ -1,5 +1,4 @@
-# project-folder
-ML Assignment 2
+# ML Assignment 2
 a. Problem Statement
 
 The objective of this assignment is to build and compare multiple machine learning classification models to predict whether an individual earns more than $50K per year based on demographic and employment-related attributes.
@@ -79,14 +78,17 @@ Comparision Table:
 
 | ML Model Name            | Observation about Model Performance                                                                                                     
 
-Model Observations:|
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logistic Regression      | Provides balanced performance but struggles with recall for the positive class (>50K). Performs moderately well but may underfit complex relationships.        |
-| Decision Tree            | High accuracy and strong recall. Captures nonlinear patterns effectively but may risk overfitting without pruning.                                             |
-| kNN                      | Performance similar to Logistic Regression. Sensitive to feature scaling and dimensionality due to one-hot encoding.                                           |
-| Naive Bayes              | High recall but lower precision and accuracy. Tends to over-predict the positive class due to strong independence assumptions.                                 |
-| Random Forest (Ensemble) | Best overall performer. Highest AUC (0.992), strong balance across all metrics. Robust and reduces overfitting compared to single decision tree.               |
-| XGBoost (Ensemble)       | Good AUC and precision. Performs better than linear models but slightly lower accuracy compared to Random Forest. Handles nonlinear relationships efficiently. |
+## Model Observations
+
+| ML Model Name | Observation about Model Performance |
+|---------------|--------------------------------------|
+| Logistic Regression | Provides balanced performance but struggles with recall for the positive class (>50K). Performs moderately well but may underfit complex relationships. |
+| Decision Tree | High accuracy and strong recall. Captures nonlinear patterns effectively but may risk overfitting without pruning. |
+| kNN | Performance similar to Logistic Regression. Sensitive to feature scaling and high dimensionality due to one-hot encoding. |
+| Naive Bayes | High recall but lower precision and accuracy. Tends to over-predict the positive class due to strong independence assumptions. |
+| Random Forest (Ensemble) | Best overall performer. Highest AUC (0.992), strong balance across all metrics. Robust and reduces overfitting compared to a single decision tree. |
+| XGBoost (Ensemble) | Good AUC and precision. Performs better than linear models but slightly lower accuracy compared to Random Forest. Handles nonlinear relationships efficiently. |
+
 
 Final Conclusion
 
