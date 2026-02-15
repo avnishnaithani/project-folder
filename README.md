@@ -33,7 +33,7 @@ Target Classes:
 
 <=50K
 
->50K
+ >50K
 
 The dataset contains socio-economic attributes used to predict annual income category.
 
